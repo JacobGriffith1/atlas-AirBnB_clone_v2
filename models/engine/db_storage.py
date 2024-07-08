@@ -33,8 +33,8 @@ class DBStorage:
         HBNB_MYSQL_DB = os.getenv('HBNB_MYSQL_DB')
         HBNB_ENV = os.getenv('HBNB_ENV', 'development')
 
-        print(HBNB_MYSQL_HOST)
-        print(HBNB_MYSQL_PWD)
+        # print(HBNB_MYSQL_HOST)
+        # print(HBNB_MYSQL_PWD)
 
         self.__engine = create_engine('mysql+mysqldb://{}:{}@{}/{}'.
                                       format(HBNB_MYSQL_USER,
