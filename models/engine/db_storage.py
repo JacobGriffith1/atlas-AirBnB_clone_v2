@@ -86,4 +86,4 @@ class DBStorage:
         calls remove() on private session attr (self.__session)
         OR close() on the class Session
         """
-        self.__session.close()
+        self.__session.remove()
