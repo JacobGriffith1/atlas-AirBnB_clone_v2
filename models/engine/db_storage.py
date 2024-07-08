@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """This module defines a class to store data with SQLAlchemy"""
 import os
 from sqlalchemy import create_engine
