@@ -1,2 +1,1 @@
-AirBnB clone - Web framework
-Project for Atlas School
+"AirBnB clone - Web static" project for Atlas School
