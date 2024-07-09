@@ -95,7 +95,7 @@ def display_states(id=None):
         return render_template('9-states.html',
                                Table="State",
                                state=state)
-    
+
     return render_template('9-states.html',
                            items=None)
 
